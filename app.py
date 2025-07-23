@@ -55,3 +55,18 @@ if uploaded_file is not None:
         st.warning("⚠️ No matching flower class found (Low Confidence)")
     else:
         st.success(f"✅ Predicted: **{class_name}** ({confidence * 100:.2f}% confidence)")
+# Developer Information
+st.write("## Developers")
+col1, col2 = st.columns(2)
+
+with col1:
+    st.image("wahid.jpg", width=150)
+    st.markdown("### MD WAHID")
+    st.markdown("[GitHub](https://github.com/wahid1099)")
+    st.markdown("[LinkedIn](https://www.linkedin.com/in/md-wahid1/)")
+
+with col2:
+    st.image("zarir.jpg", width=150)
+    st.markdown("### ZARIR ISLAM")
+    st.markdown("[GitHub](https://github.com/zaririslam)")
+    st.markdown("[LinkedIn](https://linkedin.com/in/zaririslam)")
