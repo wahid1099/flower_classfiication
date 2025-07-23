@@ -2,6 +2,6 @@ streamlit
 tensorflow==2.18.0
 opencv-python-headless
 Pillow
-numpy== 2.0.2
-protobuf==5.29.3
+numpy==1.26.4
+protobuf==3.20.3
 gunicorn
